@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+service-account*.json
+client_secret*.json
+*.pem
+*.key
+
+# Local/config overrides
+config.local.*
+secrets.*
+.clasp.json
+
+# Exports containing operational data
+data/
+exports/
+backups/
+*.csv
+*.xlsx
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
